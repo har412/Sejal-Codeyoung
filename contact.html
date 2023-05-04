@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        .outerbox{
+            width: 100%;
+            height: 100vh;
+            background-color: red;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .innerbox{
+            width: 400px;
+            height: 500px;
+            background-color: rgb(23, 159, 201);
+            padding: 10px;
+        }
+        .innerbox h1 {
+            text-align: center;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+
+        }
+        input{
+            margin: 10px 0px;
+            padding: 10px;
+        }
+        textarea{
+            margin: 10px 0px;
+        }
+        .submit-btn{
+            background: rgb(130, 79, 79);
+            color:white;
+            border-radius: 10px;
+            border:none;
+        }
+    </style>
+</head>
+<body>
+    
+
+<div class="outerbox">
+    <div class="innerbox">
+        <h1>Contact Us</h1>
+        <form action="">
+            <input type="text" placeholder="Enter  your Name">
+            <input type="number" placeholder="Enter  your Contact Number">
+            <input type="email" placeholder="Enter your Email">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Enter Your Message Here"></textarea>
+            <input type="submit" value="Send Message " class="submit-btn">
+        </form>
+    </div>
+</div>
+
+
+
+</body>
+</html>
